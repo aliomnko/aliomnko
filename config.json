@@ -1,15 +1,21 @@
 {
   "inbounds": [
     {
-      "port": 10086,
+      "port": 10086,  // پورت ورودی
       "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "id": "YOUR_UUID",
+            "id": ""id": "123e4567-e89b-12d3-a456-426614174000"",  // UUID خود را اینجا وارد کنید
             "alterId": 0
           }
         ]
+      },
+      "streamSettings": {
+        "network": "ws",  // پروتکل وب‌ساکت
+        "wsSettings": {
+          "path": "/v2ray"  // مسیر وب‌ساکت
+        }
       }
     }
   ],
