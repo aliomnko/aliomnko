@@ -19,7 +19,7 @@
       "settings": {
         "clients": [
           {
-            "id": "YOUR_UUID", // جایگزین کنید
+            "id": "Abol", // جایگزین کنید
             "alterId": 0
           }
         ]
